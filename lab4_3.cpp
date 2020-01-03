@@ -11,7 +11,7 @@ float findDivisor(int num1)
 		
 		if(num1 > 1)
 		{
-			while(i > 1 && i < num1)
+			while(i > 1 && i <= num1)
 			{
 				if(num1 % i !=0)
 				{
